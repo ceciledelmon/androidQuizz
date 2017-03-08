@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="La categorie"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:id="@+id/question_cat"
+        android:textSize="24px"
+        android:layout_marginTop="10dp"
+        android:textColor="#280F34"
+        android:fontFamily="serif-monospace"/>
+
+    <TextView
+        android:text="Ma question"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/question_text"
+        android:textColor="#511E78"
+        android:fontFamily="monospace"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"/>
+    <TextView
+        android:text="Les réponses"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/question_rep"
+        android:textColor="#511E78"
+        android:fontFamily="monospace"
+        android:textSize="26px"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:layout_weight="2.80" />
+
+</LinearLayout>
